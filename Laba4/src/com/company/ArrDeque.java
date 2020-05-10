@@ -28,6 +28,11 @@ public class ArrDeque<T> implements Serializable {
         vector.remove(e);
     }
 
+    public void remove(int index){
+        vector.remove(index);
+    }
+
+
     public void removeLast(){
         vector.remove(vector.size()-1);
     }
